@@ -1,13 +1,12 @@
 import os
 import pytest
 
-from covid import create_app
-from covid.adapters import memory_repository
-from covid.adapters.memory_repository import MemoryRepository
+from Movie_Web_App import create_app
+from Movie_Web_App.adapters import memory_repository
+from Movie_Web_App.adapters.memory_repository import MemoryRepository
 
 
-TEST_DATA_PATH = os.path.join('C:', os.sep, 'Users', 'ianwo', 'OneDrive', 'Documents', 'PythonDev', 'repo 02.07.2020',
-                              'COVID-19', 'tests', 'data')
+TEST_DATA_PATH = os.path.join('tests', 'data')
 #TEST_DATA_PATH = os.path.join('C:', os.sep, 'Users', 'iwar006', 'Documents', 'Python dev', 'COVID-19', 'tests', 'data')
 
 

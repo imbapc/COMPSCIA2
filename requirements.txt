@@ -20,4 +20,4 @@ better-profanity==0.6.1
 password-validator==1.0
 flask-wtf==0.14.2
 WTForms~=2.3.3
-ombd == 0.10.1
+omdb ~= 0.10.1
